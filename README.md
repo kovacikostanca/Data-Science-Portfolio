@@ -1,11 +1,12 @@
 # Data-Science-Portfolio
 “A collection of my data science projects, including EDA, machine learning, and dashboards.”
 
-## Projects  
+## Projects
 
-1. [Naive Bayes Spam Classifier](https://github.com/yourusername/naive-bayes-spam-classifier)  
-   - Built a spam classifier using **Bayes’ Theorem** on email keywords.  
-   - Demonstrates probability, statistics, and machine learning fundamentals.  
+1. [Naive Bayes Spam Classifier](./naive-bayes-spam-classifier/README.md)  
+   - Built a spam classifier using Bayes’ Theorem on email keywords  
+   - Shows statistics + probability + ML basics 
+  
 
 (More projects coming soon)
 
