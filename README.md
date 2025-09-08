@@ -5,7 +5,11 @@
 
 1. [Naive Bayes Spam Classifier](./naive-bayes-spam-classifier/README.md)  
    - Built a spam classifier using Bayes’ Theorem on email keywords  
-   - Shows statistics + probability + ML basics 
+   - Shows statistics + probability + ML basics
+
+2. [House Price Prediction Using Linear and Polynomial Regression](./house-price-prediction/README.md)
+   - **Machine Learning pipeline** to predict housing prices based on various socioeconomic and structural property features
+   - Shows regression analysis + model evaluation + ML
   
 
 (More projects coming soon)
@@ -16,7 +20,8 @@
 - Python (pandas, numpy, matplotlib, scikit-learn)  
 - Statistics & Probability  
 - Machine Learning & Classification  
-- Data Wrangling & Visualization  
+- Data Wrangling & Visualization
+- Linear and Polynomial Regression  
 
 ---
 
