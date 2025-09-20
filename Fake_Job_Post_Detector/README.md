@@ -73,7 +73,7 @@ Many job seekers fall victim to fake job postings that ask for money, personal i
 
 ---
 
-# Fake Job Post Detector 🚨
+# Fake Job Post Detector
 
 A machine learning project that detects **fraudulent job postings** using natural language processing (NLP). The system helps job seekers and platforms identify fake or scam job posts in real time.
 
