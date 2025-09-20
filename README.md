@@ -15,7 +15,7 @@
    -  Predictive Modeling - Classification on "Students Exam Performance"
    -  Random Forest + Model Training + Accuracy Metrics for Evaluation
 
-4. [Netflix Show Exploratory Data Analysis](./Netfix-Show-EDA/README.md)
+4. [Netflix Show Exploratory Data Analysis](./Netflix-Show-EDA/README.md)
    - EDA
    - Analyzing trends in content by: country, genres, year, type (Movies or TV Shows)
   
