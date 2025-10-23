@@ -38,4 +38,5 @@ I’m passionate about uncovering insights through data, building predictive mod
 ---
 
 ## Contact  
-- **GitHub**: [kovacikostanca](https://github.com/kovacikostanca)  
+- **GitHub**: [kovacikostanca](https://github.com/kovacikostanca)
+- **LinkedIn**: [linkedin.com/in/kostancakovaci](https://linkedin.com/in/kostanca-kovaci)  
