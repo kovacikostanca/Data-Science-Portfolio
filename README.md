@@ -30,11 +30,10 @@ I’m passionate about uncovering insights through data, building predictive mod
 ---
 
 ## Tools & Skills  
-- Python (pandas, numpy, matplotlib, scikit-learn)  
-- Statistics & Probability  
-- Machine Learning & Classification  
-- Data Wrangling & Visualization
-- Linear and Polynomial Regression  
+**Programming:** Python, R, SQL  
+**Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Plotly, Streamlit  
+**Techniques:** EDA, Feature Engineering, Regression, Classification, Clustering, Machibe Learning  
+**Soft Skills:** Analytical Thinking, Communication, Data Storytelling  
 
 ---
 
