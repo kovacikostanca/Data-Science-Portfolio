@@ -1,6 +1,7 @@
 # KOSTANCA KOVACI - Data Science Portfolio
 
 Welcome to my **Data Science Portfolio**!  
+
 I’m passionate about uncovering insights through data, building predictive models, and creating interactive tools that make information accessible and actionable.
 
 ## Projects
