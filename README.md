@@ -9,9 +9,11 @@ I’m passionate about uncovering insights through data, building predictive mod
 
 “A collection of my data science projects, including EDA, machine learning and dashboards.”
 
-1. [Naive Bayes Spam Classifier](./naive-bayes-spam-classifier/README.md)  
-   - Built a spam classifier using Bayes’ Theorem on email keywords  
-   - Shows statistics + probability + ML basics
+1. [Fake_Job_Post_Detector](./Fake_Job_Post_Detector/README.md)  
+   - NLP-based fraud detection system designed to automatically identify fraudulent job postings.  
+   - Process and extract textual features using NLP.
+   - Train machine learning models for classification.
+   - Evaluate and optimize model performance.
 
 2. [House Price Prediction Using Linear and Polynomial Regression](./house-price-prediction/README.md)
    - **Machine Learning pipeline** to predict housing prices based on various socioeconomic and structural property features
