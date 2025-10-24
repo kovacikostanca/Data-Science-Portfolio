@@ -1,7 +1,7 @@
 # Fake Job Post Detector – NLP-based Fraud Detection System
 
 <div align="center">
-  <img src="images/fake_job_detector.png" alt="Fake Job Detector" width="400"/>
+  <img src="images/fake_job_detector.png" alt="Fake Job Detector" width="500"/>
 </div>
 
 ---
