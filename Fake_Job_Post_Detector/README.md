@@ -101,21 +101,6 @@ It helps **job seekers avoid scams** and **platforms maintain trustworthiness**.
 
 ---
 
-## Dashboard Example
-
-The dashboard summarizes key KPIs and visualizes trends:
-
-<div align="center">
-  <img src="images/dashboard_example.png" alt="Dashboard Example" width="600"/>
-</div>
-
-**KPIs include:**
-- Total titles, real vs fraudulent job posts  
-- Distribution of employment types  
-- Top industries and functions  
-
----
-
 ## Predictions & Probabilities
 
 Each job posting gets a **fraud probability score**.  
