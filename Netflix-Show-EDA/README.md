@@ -1,7 +1,7 @@
 # Netflix Titles EDA
 
 <div align="center">
-  <img src="images/netflix_eda.png" alt="Netflix EDA" width="400"/>
+  <img src="https://github.com/kovacikostanca/Data-Science-Portfolio/blob/main/Netflix-Show-EDA/Netflix-EDA.png" alt="Netflix EDA" width="400"/>
 </div>
 
 ---
