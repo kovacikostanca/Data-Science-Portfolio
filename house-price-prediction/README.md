@@ -119,11 +119,11 @@ Predictions generated for new housing records (`house_unseen.csv`):
 
 ### 1. Actual vs Predicted Prices
 
-![Actual vs Predicted](./images/actual_vs_predicted.png)
+![Actual vs Predicted](https://github.com/kovacikostanca/Data-Science-Portfolio/blob/main/house-price-prediction/actual_vs_predicted.png)
 
 ### 2. Training vs Testing Comparison
 
-![Training vs Testing](./images/train_test_comparison.png)
+![Training vs Testing](https://github.com/kovacikostanca/Data-Science-Portfolio/blob/main/house-price-prediction/train_test_comparison.png)
 
 > Visualizations show how close the models are to real house prices.
 
