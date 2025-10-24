@@ -1,5 +1,8 @@
 # House Price Prediction Using Linear and Polynomial Regression
 
+![](https://github.com/kovacikostanca/Data-Science-Portfolio/blob/main/house-price-prediction/housingcosts.jpg)
+
+
 ## Overview
 
 This project implements a machine learning pipeline to predict housing prices based on various socioeconomic and structural property features.  
