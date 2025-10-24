@@ -1,7 +1,8 @@
 # House Price Prediction Using Linear and Polynomial Regression
 
-<img src="https://github.com/kovacikostanca/Data-Science-Portfolio/blob/main/house-price-prediction/housingcosts.jpg" alt="House Price Prediction" width="400" style = "display: block; margin-left: auto; margin-right: auto;"/>
-
+<div align="center">
+  <img src="https://github.com/kovacikostanca/Data-Science-Portfolio/blob/main/house-price-prediction/housingcosts.jpg" alt="Netflix EDA" width="400"/>
+</div>
 
 ## Overview
 
