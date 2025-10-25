@@ -1,7 +1,7 @@
 # Student Exam Performance Prediction
 
 <div align="center">
-  <img src=https://github.com/kovacikostanca/Data-Science-Portfolio/blob/main/Student_Performance_using_RandomForest/student_exam_performance.jpg" alt="Student Exam Performance" width="400"/>
+  <img src="https://github.com/kovacikostanca/Data-Science-Portfolio/blob/main/Student_Performance_using_RandomForest/student_exam_performance.jpg" alt="Student Exam Performance" width="400"/>
 </div>
 
 ## Overview
