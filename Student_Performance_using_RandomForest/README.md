@@ -26,7 +26,8 @@ Columns included in the dataset:
 - **GradeClass** – letter grade  
 
 **Target Variable:**  
-- `pass` = 1 if GPA ≥ 2.5, else 0  
+- `pass` = 1 if GPA ≥ 2.5,
+-  else 0  
 
 **Dataset**
 
