@@ -1,6 +1,10 @@
 # Student Exam Performance Prediction
 
-## Project Overview
+<div align="center">
+  <img src=https://github.com/kovacikostanca/Data-Science-Portfolio/blob/main/Student_Performance_using_RandomForest/student_exam_performance.jpg" alt="Netflix EDA" width="400"/>
+</div>
+
+## Overview
 This project predicts whether a student will pass or fail based on demographic, behavioral, and academic features using the **Student Performance Dataset**. The workflow includes **data preprocessing, feature engineering, model training, evaluation, and interpretability**, giving insights not only on which students are at risk but also **why** they are predicted to pass or fail.
 
 ---
