@@ -26,10 +26,9 @@ It allows users to explore performance across regions, categories, and time peri
 
 ## Dashboard Features
 
-- 📅 Dynamic filtering by **Region**, **Category**, and **Time Period**  
-- 💰 Key metrics: **Revenue, Profit, Quantity Sold, Discount Rate**  
-- 🗺️ **Geographic** visualization of regional performance  
-- 📈 **Trend** and **comparison** charts for deeper insights  
+- 📅 Dynamic filtering by **Item Type**, **Season**, and **Total Sales**  
+- 💰 Key metrics: **Total Sales, Item Type, Supplier, Sales Distribution**   
+- 📈 **Trend** and **Over Time** charts for deeper insights  
 - 🧭 Fully interactive and optimized for decision-makers  
 
 ---
@@ -54,24 +53,8 @@ It allows users to explore performance across regions, categories, and time peri
 
 ## Key Insights
 
-- 💡 The top 20% of customers contribute over 60% of total revenue.  
-- 💡 Technology and Office Supplies categories show the highest growth.  
-- 💡 Certain regions underperform, indicating potential market opportunities.  
-- 💡 End-of-year promotions significantly boost Q4 revenue.
-
----
-
-## How to Access
-
-1. Visit the [Tableau Public link](https://public.tableau.com/app/profile/kostanca.kovaci/viz/SalesInsightsDashboard_17613996793180/SalesInsightsDashboard).  
-2. Use the filters to explore sales by **Region**, **Segment**, or **Category**.  
-3. Hover over charts for tooltips and detailed KPIs.  
-
----
-
-## Future Enhancements
-
-- Integrate **real-time data** connections 
-- Add **forecasting** using Tableau’s built-in analytics tools  
-- Deploy **multi-dashboard views** for executives and sales teams  
-- Embed dashboards on a **personal website or portfolio**  
+- 💡 The top suppliers according to the total sales.  
+- 💡 Wine, Beer and Liquer categories show the highest growth.   
+- 💡 Seasonal Changes illustrating the highest peak of total sales and lowest peak for lowest saling items.
+- 💡 Illustration of total sales, retail transfers, retails sales and warehouse sails. 
+ 
