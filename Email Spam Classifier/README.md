@@ -1,7 +1,7 @@
 
 # Email Spam Classifier using Bayes' Theorem
 
-A machine learning project that classifies emails as spam or not spam based on the presence of three keywords: **WIN**, **FREE**, and **OFFER**.
+A machine learning project that classifies emails as **Spam** or **Not spam** based on the presence of three keywords: **WIN**, **FREE**, and **OFFER**.
 
 ## Overview
 
@@ -39,7 +39,6 @@ The project uses a dataset of 18 emails with the following features:
 
 ```
 pandas
-openpyxl (for reading Excel files)
 jupyter notebook (for running the notebook)
 ```
 
@@ -48,21 +47,12 @@ Install dependencies:
 pip install pandas openpyxl jupyter
 ```
 
-## Project Structure
-
 ```
-.
-├── Email_Spam_Classifier.ipynb    # Main Jupyter notebook
-├── email_spam_nospam.xlsx         # Dataset file
-└── README.md                       # This file
-```
-
 ## Usage
 
 1. **Clone or download the project files**
 
 2. **Ensure the dataset file `email_spam_nospam.xlsx` is in the same directory**
-
 3. **Open the Jupyter notebook**:
    ```bash
    jupyter notebook Email_Spam_Classifier.ipynb
@@ -138,13 +128,6 @@ Classifies an email as spam or not spam based on the presence of keywords.
 - Classification label ("Spam" or "Not Spam")
 - Probability of being spam
 
-## Limitations
-
-- Assumes keyword independence (which may not always be true in practice)
-- Limited to three keywords
-- Small dataset (18 emails)
-- Does not account for context or word combinations
-
 ## Future Improvements
 
 - Expand keyword list
@@ -154,13 +137,6 @@ Classifies an email as spam or not spam based on the presence of keywords.
 - Consider word frequency instead of just presence/absence
 - Implement n-gram analysis
 
-## License
-
-This project is for educational purposes.
-
-## Author
-
-Machine Learning and Probability Classification Project
 
 ## Acknowledgments
 
