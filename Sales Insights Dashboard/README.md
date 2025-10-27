@@ -53,8 +53,23 @@ It allows users to explore performance across regions, categories, and time peri
 
 ## Key Insights
 
-- 💡 The top suppliers according to the total sales.  
-- 💡 Wine, Beer and Liquer categories show the highest growth.   
-- 💡 Seasonal Changes illustrating the highest peak of total sales and lowest peak for lowest saling items.
-- 💡 Illustration of total sales, retail transfers, retails sales and warehouse sails. 
+- 💡 Overall Performance:
+   - $12.1M in total sales across 34,821 distinct items sold through 397 store locations.
+   - Retail sales ($2.2M) and warehouse transfers ($2.1M), with warehouse e-sales contributing $7.8M. 
+- 💡 Product Performance:
+   - Beer dominates in the data, with Corona Extra products leading sales significantly.
+   - The top 10 items are heavily beer-focused, particularly Corona and Heineken brands. This suggests a strong dependency on beverage alcohol, specifically beer products.  
+- 💡 Supplier Concentration:
+   - Crown Imports is the dominant supplier by a substantial margin, followed by Miller Brewing Company and Anheuser Busch.
+   - This creates potential supply chain risk through heavy reliance on a few key suppliers, particularly Crown Imports (which supplies Corona and Modelo brands).
+- 💡 Seasonal Patterns:
+   - Sales show clear seasonality with peaks in summer months (June-August), reaching approximately $1.5M monthly.
+   - Notable dip in spring (April-May at ~$500K) and relatively stable performance in fall/winter around $1M.
+   - This suggests strong seasonal demand, likely driven by summer beer consumption.
+ - 💡 Sales Trends Over Time:
+   - The time series shows declining sales trajectory from 2017 to 2020, with noticeable volatility.
+   - Peak performance was in mid-2018, with a general downward trend afterward. This could indicate market challenges, increased competition, or other business pressures.
+ - 💡Product Mix: 
+   - While beer (particularly non-alcoholic and standard beer) represents the largest category, there's also presence of wine, liquor, kegs, and other item types, though at much smaller volumes.
+   - This limited diversification means business performance is heavily tied to beer market dynamics.
  
