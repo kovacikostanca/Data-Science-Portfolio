@@ -17,8 +17,8 @@ The **Sales Insights Dashboard** turns raw sales data into actionable insights.
 It allows users to explore performance across regions, categories, and time periods — revealing trends that drive strategic decision-making.
 
 ### Key Questions Addressed
-- Which regions and product categories generate the most revenue?
-- How do profits and discounts impact sales?
+- Which supplier and product categories contribute the most on total revenue?
+- How do total sales change over time and seasons, which year contibute the most?
 - What are the top-performing products and suppliers?
 - How does sales performance evolve over time?
 
