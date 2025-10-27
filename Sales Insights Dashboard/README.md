@@ -47,7 +47,7 @@ It allows users to explore performance across regions, categories, and time peri
 
 ## Dashboard Preview
 
-![Sales Insights Dashboard Preview](assets/sales_insights_dashboard.png)  
+![Sales Insights Dashboard Preview](https://github.com/kovacikostanca/Data-Science-Portfolio/blob/main/Sales%20Insights%20Dashboard/Sales%20Insights%20Dashboard.png)  
 
 ---
 
