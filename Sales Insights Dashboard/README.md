@@ -1,4 +1,4 @@
-# 📊 Sales Insights Dashboard
+# Sales Insights Dashboard
 
 This project illustrates an interactive **Tableau Dashboard** that provides data-driven insights into sales performance and business growth.  
 This project highlights my ability to **analyze data**, **design interactive dashboards**, and **communicate key business metrics** effectively.
