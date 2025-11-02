@@ -1,5 +1,5 @@
-# Airbnb Reviews Data Analysis Project
-### Data Cleaning and Preprocessing of Airbnb Reviews: Insights from Inside Airbnb Datasets
+<h1 align="center">Airbnb Reviews Data Analysis Project</h1>
+<h3 align="center">Data Cleaning and Preprocessing of Airbnb Reviews: Insights from Inside Airbnb Datasets</h3>
 
 <p align="center">
   <img src="Airbnb_image.jpg" alt="Description" width="400">
