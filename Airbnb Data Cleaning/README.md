@@ -1,4 +1,4 @@
-<h1 align="center">Airbnb Reviews Data Analysis Project</h1>
+<h1 align="center">Airbnb Data Analysis Project</h1>
 <h3 align="center">Data Cleaning and Preprocessing of Airbnb Reviews: Insights from Inside Airbnb Datasets</h3>
 
 <p align="center">
