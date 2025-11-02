@@ -2,7 +2,7 @@
 ### Data Cleaning and Preprocessing of Airbnb Reviews: Insights from Inside Airbnb Datasets
 
 <p align="center">
-  <img src="Airbnb_image.jpg" alt="Description" width="600">
+  <img src="Airbnb_image.jpg" alt="Description" width="400">
 </p>
 
 ## Project Overview
