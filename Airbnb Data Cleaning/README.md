@@ -5,11 +5,6 @@
   <img src="Airbnb_image.jpg" alt="Description" width="400">
 </p>
 
-<p align="center">
-  <h1>Airbnb Dataset | Data Cleaning and Preprocessing</h1>
-  <h3>Data Cleaning and Preprocessing of Airbnb Reviews: Insights from Inside Airbnb Datasets</h3>
-</p>
-
 ---
 
 ## Project Objective
