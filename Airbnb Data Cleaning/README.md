@@ -49,13 +49,24 @@ numpy
 matplotlib
 seaborn
 nltk
-re```
+re
+```
 
 Make sure to import:
+
 ```import nltk
 nltk.download('stopwords')
-nltk.download('wordnet')```
+nltk.download('wordnet')
+```
+---
 
+## Tools and Technologies
+- **Programming Language:** Python  
+- **Libraries:**  
+  - Data manipulation: `pandas`, `numpy`  
+  - Text preprocessing: `nltk`, `spaCy`, `re`  
+  - Visualization & EDA: `matplotlib`, `seaborn`, `plotly`  
+- **Optional:** Jupyter Notebook or Google Colab for interactive workflow
 ---
 
 ## Project Scope
@@ -93,16 +104,6 @@ The project encompasses the following main tasks:
 ### C. Data Quality Assurance
 - Identify outliers (e.g., extremely high prices, unrealistic review counts)  
 - Validate merged datasets maintain integrity (no mismatched or missing IDs)
-
----
-
-## Tools and Technologies
-- **Programming Language:** Python  
-- **Libraries:**  
-  - Data manipulation: `pandas`, `numpy`  
-  - Text preprocessing: `nltk`, `spaCy`, `re`  
-  - Visualization & EDA: `matplotlib`, `seaborn`, `plotly`  
-- **Optional:** Jupyter Notebook or Google Colab for interactive workflow
 
 ---
 
