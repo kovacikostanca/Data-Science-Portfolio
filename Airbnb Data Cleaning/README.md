@@ -106,6 +106,13 @@ The project encompasses the following main tasks:
 - Validate merged datasets maintain integrity (no mismatched or missing IDs)
 
 ---
+## Visualizations
+1. Price Distribution -> We comprehend typical price ranges and detect outliers, also airbnb prices often have extreme outliers, so we limit them in a range of 0 to 1000.
+2. Price by Property Type -> Shows how different property types (Entire home, Private room, etc.) are priced.
+3. Review Length and Review Rating -> Check if longer reviews correlate with higher or lower ratings.
+4. Average Rating by Property -> Compare guest satisfaction across different types of listings.
+5. Correlation Heatmap -> Observe which features are strongly correlated (price, reviews, ratings).
+---
 
 ## Expected Outcomes
 After processing, the following cleaned datasets are produced:
