@@ -49,7 +49,13 @@ numpy
 matplotlib
 seaborn
 nltk
-re
+re```
+
+Make sure to import:
+```import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')```
+
 ---
 
 ## Project Scope
@@ -69,15 +75,17 @@ The project encompasses the following main tasks:
 
 **Date Processing:**
 - Convert review dates to datetime objects  
-- Extract features like month, year, or day of the week  
+- Extract features like month, year, or day of the week (optional)
 
 **Price Normalization:**
 - Remove currency symbols, commas, and convert to float  
+- Ensured numeric fields (e.g., *price*) were stored as numeric types.
 
 **Feature Engineering:**
 - Average rating per host or listing  
 - Review length (number of words/characters)  
-- Sentiment score of reviews using NLP techniques  
+- Created new derived features (e.g., *review length*).
+- Prepared the final dataset for exploration and machine learning workflows.
 
 **Merging Datasets:**
 - Combine listings and reviews datasets on `listing_id` to create an enriched dataset for analysis
@@ -99,12 +107,14 @@ The project encompasses the following main tasks:
 ---
 
 ## Expected Outcomes
-- A **cleaned and preprocessed dataset** ready for analysis and modeling  
-- Insights on:  
-  - Listing distribution across neighborhoods and property types  
-  - Review patterns and trends  
-  - Host performance and guest satisfaction  
-  - Textual insights from reviews, including sentiment and keywords  
+After processing, the following cleaned datasets are produced:
+
+✔ **Clean listings dataset**  
+✔ **Clean reviews dataset**  
+✔ **Ready-to-use structured data** for:
+- Machine Learning (ML)
+- Exploratory Data Analysis (EDA)
+- Natural Language Processing (NLP) 
 - Documentation of **data cleaning steps** for reproducibility
 
 ---
