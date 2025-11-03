@@ -40,8 +40,16 @@ Contains historical reviews for listings:
 - Date of review  
 - Review text  
 
-**Timeframe:** The latest available dataset for the selected city (e.g., New York, London, etc.)
+---
+## Libraries Used
 
+```python
+pandas
+numpy
+matplotlib
+seaborn
+nltk
+re
 ---
 
 ## Project Scope
