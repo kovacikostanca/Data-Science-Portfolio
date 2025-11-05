@@ -97,7 +97,3 @@ Interactive **slicers** allow users to filter the entire dashboard by:
 - Integrate Power Query for automated data refresh
 - Add trending alerts using advanced conditional formatting
 - Publish dashboard to Power BI for broader accessibility
-
-
-## 📂 Folder Structure (Suggested)
-
