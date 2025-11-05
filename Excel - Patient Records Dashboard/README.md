@@ -77,7 +77,7 @@ Interactive **slicers** allow users to filter the entire dashboard by:
 
 ## How to Use
 
-1. Open **Healthcare_Dashboard.xlsx**
+1. Open **Healthcare_Data_Analysis_Dashboard.xlsx**
 2. Use slicers (Department & Visit Year) to explore data interactively
 3. Enter new patient visit records in the **Raw_Data** sheet — all charts update automatically
 
