@@ -63,6 +63,36 @@ Regions: **Europe**
 
 ---
 
+## Key Insights
+
+- Technology is the most profitable and highest-selling category.
+
+- Furniture shows mixed profit margins with several loss-making subcategories.
+
+- A small set of customers contributes disproportionately to total profit.
+
+- Germany, France, and the UK generate the highest revenue in Europe.
+
+- Certain product lines have negative profit, indicating pricing or discount issues.
+
+---
+
+## Impact
+
+This dashboard provides decision-makers with:
+
+- Visibility on high-impact products
+
+- A clear view of customer value distribution
+
+- A way to spot loss-making categories early
+
+- Insight into regional growth opportunities
+
+The final result is a professional, interactive, and action-driven dashboard ready for business review.
+
+---
+
 ## 📎 Live Dashboard
 👉 *https://public.tableau.com/app/profile/kostanca.kovaci/viz/RetailSalesDashboard_17637259530600/Dashboard1#1*
 
