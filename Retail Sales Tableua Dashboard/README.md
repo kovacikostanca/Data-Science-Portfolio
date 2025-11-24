@@ -1,7 +1,7 @@
 <h1 align="center">Retail Sales Performance Dashboard (Tableau)</h1>
 
 <p align="center">
-  <img src="Retail_Sales_Tableau.jpg" alt="Description" width="400">
+  <img src="Retail_Sales_Tableau.png" alt="Description" width="400">
 </p>
 
 ## Project Overview
