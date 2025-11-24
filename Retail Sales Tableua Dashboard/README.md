@@ -1,6 +1,10 @@
-# Retail Sales Performance Dashboard (Tableau)
+<h1 align="center">Retail Sales Performance Dashboard (Tableau)</h1>
 
-## 📌 Overview
+<p align="center">
+  <img src="Retail_Sales_Tableau.jpg" alt="Description" width="400">
+</p>
+
+## Project Overview
 This project is an end-to-end analytics solution built using Tableau Public and Excel.  
 It analyzes a synthetic but realistic European retail dataset consisting of **10,000 transactions**.
 
