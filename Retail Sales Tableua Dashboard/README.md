@@ -4,6 +4,10 @@
   <img src="Retail_Sales_Tableau.png" alt="Description" width="400">
 </p>
 
+<p align="center">
+Tableau Dashboard Link Below
+</p>
+
 ## Project Overview
 This project is an end-to-end analytics solution built using Tableau Public and Excel.  
 It analyzes a synthetic but realistic European retail dataset consisting of **10,000 transactions**.
