@@ -1,6 +1,7 @@
-<h1><center>
-  Salary Survey Data Cleaning Project
-</h1></center>
+<h1 align="center">Salary Survey Data Cleaning</h1>
+<p align="center">
+  <img src="salary_survey.jpg" alt="Description" width="400">
+</p>
 
 ## Project Overview
 This project focuses on cleaning and preparing a *Salary Survey Dataset* for further exploratory and statistical analysis.  
