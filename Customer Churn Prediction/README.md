@@ -2,5 +2,5 @@
 <h3 align="center">Telco BMI Dataset</h3>
 
 <p align="center">
-  <img src="" alt="Description" width="400">
+  <img src="customer_churn.jpg" alt="Description" width="400">
 </p>
