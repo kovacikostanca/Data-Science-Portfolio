@@ -107,6 +107,8 @@ Telco Customer Churn dataset (7,049 customers, 21 features).
 - **Strengths**: Interpretable, good overall accuracy.
 - **Weakness**: Misses many churners (high false negatives).
 
+---
+
 #### 3.2 XGBoost
 
 |Metric|	Value|
