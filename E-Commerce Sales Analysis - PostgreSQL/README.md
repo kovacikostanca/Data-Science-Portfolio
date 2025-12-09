@@ -227,47 +227,111 @@ DELETE FROM orders WHERE order_status = 'cancelled';
 SELECT SUM(total_amount) AS total_revenue
 FROM orders;
 ```
- <img src="img1.jpg" alt="Description" width="400">
 
-### 5.2 Best-Selling Products
+-Shows the total amount of revenue.
+
+ <img src="img0.png" alt="Description" width="400">
+
+### 5.2 Top-Selling Products
 ```
-SELECT p.product_name, SUM(oi.quantity) AS units_sold
+SELECT 
+    p.product_name,
+    SUM(oi.quantity) AS total_quantity_sold,
+    SUM(oi.quantity * oi.price) AS total_revenue
 FROM order_items oi
 JOIN products p ON oi.product_id = p.product_id
-GROUP BY p.product_id
-ORDER BY units_sold DESC;
+GROUP BY p.product_name
+ORDER BY total_revenue DESC;
 ```
- <img src="img2.jpg" alt="Description" width="400">
+**Insight:**
+- Shows which products generate the most revenue and are popular.
+- Can recommend focusing marketing or inventory on top products.
+  
+ <img src="img1.png" alt="Description" width="400">
  
-### 5.3 Revenue by Category
+### 5.3 Revenue by Country
 ```
-SELECT p.category, SUM(oi.quantity * oi.price) AS category_revenue
-FROM order_items oi
-JOIN products p ON oi.product_id = p.product_id
-GROUP BY p.category
-ORDER BY category_revenue DESC;
+SELECT 
+    c.country,
+    SUM(oi.quantity * oi.price) AS total_revenue
+FROM orders o
+JOIN order_items oi ON o.order_id = oi.order_id
+JOIN customers c ON o.customer_id = c.customer_id
+GROUP BY c.country
+ORDER BY total_revenue DESC;
 ```
- <img src="img3.jpg" alt="Description" width="400">
+**Insight:**
+- Identifies top-performing markets.
+- Helps business decide where to expand or run promotions.
+
+<img src="img2.png" alt="Description" width="400">
  
 ### 5.4 Monthly Sales Trend
 ```
-SELECT DATE_TRUNC('month', order_date) AS month, SUM(total_amount)
-FROM orders
-GROUP BY 1
-ORDER BY 1;
+SELECT 
+    DATE_TRUNC('month', o.order_date) AS month,
+    SUM(oi.quantity * oi.price) AS monthly_revenue,
+    COUNT(DISTINCT o.order_id) AS orders_count
+FROM orders o
+JOIN order_items oi ON o.order_id = oi.order_id
+GROUP BY month
+ORDER BY month;
 ```
- <img src="img4.jpg" alt="Description" width="400">
+**Insight:**
+- Shows seasonal trends or months with low sales.
+- Useful for planning promotions or inventory.
 
-### 5.5 Top 5 Customers
+<img src="img4.png" alt="Description" width="400">
+
+### 5.5 Average Order Value per Customer
 ```
-SELECT c.first_name, c.last_name, SUM(o.total_amount) AS total_spent
+SELECT 
+    c.full_name,
+    COUNT(o.order_id) AS total_orders,
+    AVG(o.total_amount) AS avg_order_value
 FROM orders o
 JOIN customers c ON o.customer_id = c.customer_id
-GROUP BY c.customer_id
-ORDER BY total_spent DESC
-LIMIT 5;
+GROUP BY c.full_name
+ORDER BY avg_order_value DESC;
 ```
- <img src="img5.jpg" alt="Description" width="400">
+**Insight:**
+- Identifies high-value customers.
+- Can prioritize these customers for loyalty programs or targeted marketing.
+
+ <img src="img3.png" alt="Description" width="400">
+
+### 5.6 Repeat Customers
+```
+SELECT 
+    c.full_name,
+    COUNT(o.order_id) AS completed_orders
+FROM orders o
+JOIN customers c ON o.customer_id = c.customer_id
+WHERE o.order_status = 'completed'
+GROUP BY c.full_name
+HAVING COUNT(o.order_id) > 1
+ORDER BY completed_orders DESC;
+```
+**Insight:**
+- Identifies loyal customers.
+- Can help design retention strategies or reward programs.
+ <img src="img5.png" alt="Description" width="400">
+
+### 5.7 Top Revenue Products by Category
+```
+SELECT 
+    p.category,
+    p.product_name,
+    SUM(oi.quantity * oi.price) AS revenue
+FROM order_items oi
+JOIN products p ON oi.product_id = p.product_id
+GROUP BY p.category, p.product_name
+ORDER BY p.category, revenue DESC;
+```
+**Insight:**
+- Helps understand which categories are most profitable.
+- Supports decisions on stocking or promotions per category.
+   <img src="img6.png" alt="Description" width="400">
 
 ## 6. Insights + Business Recommendations
 
