@@ -1,5 +1,10 @@
-# 🛒 E-Commerce Sales Analysis  
-**SQL, Data Cleaning & Business Insights**
+<h1 align="center">🛒 E-Commerce Sales Analysis</h1>
+<h3 align="center">SQL, Data Cleaning & Business Insights</h3>
+
+<p align="center">
+  <img src="" alt="Description" width="400">
+</p>
+
 
 ---
 
