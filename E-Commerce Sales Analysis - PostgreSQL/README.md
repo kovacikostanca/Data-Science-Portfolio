@@ -228,7 +228,7 @@ FROM orders;
 **Insights:**
 - Shows the total amount of revenue.
 
-<img src="img0.png" alt="Description" width="100">
+<img src="img0.png" alt="Description" width="150">
 
 ### 5.2 Top-Selling Products
 ```
