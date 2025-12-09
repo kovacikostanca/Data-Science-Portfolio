@@ -30,9 +30,7 @@ The database is structured to answer essential business questions such as:
 
 ## 2. Database Schema
 
-### 2.1 Entity-Relationship Diagram (ERD)
-
-### 2.2 Tables & Fields
+### 2.1 Tables & Fields
 
 #### **Customers**
 |Column|	Description|
