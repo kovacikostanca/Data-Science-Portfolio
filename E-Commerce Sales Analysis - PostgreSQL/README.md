@@ -339,7 +339,7 @@ ORDER BY p.category, revenue DESC;
 
 - The highest revenue products are electronics (mouse, keyboard, headphones).
 
-- USA and UK generate most revenue.
+- USA and Canada generate most revenue.
 
 - March and December show seasonal sales spikes.
 
