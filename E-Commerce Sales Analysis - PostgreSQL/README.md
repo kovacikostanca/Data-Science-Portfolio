@@ -2,7 +2,7 @@
 <h3 align="center">SQL, Data Cleaning & Business Insights</h3>
 
 <p align="center">
-  <img src="" alt="Description" width="400">
+  <img src="e_commerce_sql.jpg" alt="Description" width="400">
 </p>
 
 
