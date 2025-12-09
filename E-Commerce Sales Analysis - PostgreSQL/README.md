@@ -228,7 +228,7 @@ FROM orders;
 **Insights:**
 - Shows the total amount of revenue.
 
- <img src="img0.png" alt="Description" width="100">
+<img src="img0.png" alt="Description" width="100">
 
 ### 5.2 Top-Selling Products
 ```
@@ -245,7 +245,7 @@ ORDER BY total_revenue DESC;
 - Shows which products generate the most revenue and are popular.
 - Can recommend focusing marketing or inventory on top products.
   
- <img src="img1.png" alt="Description" width="400">
+<img src="img1.png" alt="Description" width="400">
  
 ### 5.3 Revenue by Country
 ```
@@ -296,7 +296,7 @@ ORDER BY avg_order_value DESC;
 - Identifies high-value customers.
 - Can prioritize these customers for loyalty programs or targeted marketing.
 
- <img src="img3.png" alt="Description" width="400">
+<img src="img3.png" alt="Description" width="400">
 
 ### 5.6 Repeat Customers
 ```
@@ -313,7 +313,8 @@ ORDER BY completed_orders DESC;
 **Insight:**
 - Identifies loyal customers.
 - Can help design retention strategies or reward programs.
- <img src="img5.png" alt="Description" width="400">
+
+<img src="img5.png" alt="Description" width="400">
 
 ### 5.7 Top Revenue Products by Category
 ```
@@ -329,7 +330,8 @@ ORDER BY p.category, revenue DESC;
 **Insight:**
 - Helps understand which categories are most profitable.
 - Supports decisions on stocking or promotions per category.
-   <img src="img6.png" alt="Description" width="400">
+
+<img src="img6.png" alt="Description" width="400">
 
 ## 6. Insights + Business Recommendations
 
