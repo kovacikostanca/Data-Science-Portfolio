@@ -2,7 +2,7 @@
 <h3 align="center">SQL, Data Cleaning & Business Insights</h3>
 
 <p align="center">
-  <img src="e_commerce_sql.jpg" alt="Description" width="400">
+  <img src="e_commerce_sql.jpg" alt="Description" width="500">
 </p>
 
 
@@ -227,6 +227,7 @@ DELETE FROM orders WHERE order_status = 'cancelled';
 SELECT SUM(total_amount) AS total_revenue
 FROM orders;
 ```
+ <img src="img1.jpg" alt="Description" width="400">
 
 ### 5.2 Best-Selling Products
 ```
@@ -236,7 +237,8 @@ JOIN products p ON oi.product_id = p.product_id
 GROUP BY p.product_id
 ORDER BY units_sold DESC;
 ```
-
+ <img src="img2.jpg" alt="Description" width="400">
+ 
 ### 5.3 Revenue by Category
 ```
 SELECT p.category, SUM(oi.quantity * oi.price) AS category_revenue
@@ -245,7 +247,8 @@ JOIN products p ON oi.product_id = p.product_id
 GROUP BY p.category
 ORDER BY category_revenue DESC;
 ```
-
+ <img src="img3.jpg" alt="Description" width="400">
+ 
 ### 5.4 Monthly Sales Trend
 ```
 SELECT DATE_TRUNC('month', order_date) AS month, SUM(total_amount)
@@ -253,6 +256,7 @@ FROM orders
 GROUP BY 1
 ORDER BY 1;
 ```
+ <img src="img4.jpg" alt="Description" width="400">
 
 ### 5.5 Top 5 Customers
 ```
@@ -263,6 +267,7 @@ GROUP BY c.customer_id
 ORDER BY total_spent DESC
 LIMIT 5;
 ```
+ <img src="img5.jpg" alt="Description" width="400">
 
 ## 6. Insights + Business Recommendations
 
