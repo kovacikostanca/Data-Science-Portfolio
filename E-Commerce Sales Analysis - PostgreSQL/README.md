@@ -225,8 +225,8 @@ DELETE FROM orders WHERE order_status = 'cancelled';
 SELECT SUM(total_amount) AS total_revenue
 FROM orders;
 ```
-
--Shows the total amount of revenue.
+**Insights:**
+- Shows the total amount of revenue.
 
  <img src="img0.png" alt="Description" width="100">
 
