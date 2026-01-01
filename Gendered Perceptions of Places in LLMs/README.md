@@ -1,9 +1,9 @@
 # Case Study: Gendered Perceptions of Places in LLMs
-# Whose Perspective Does AI Reflect? 
+## Whose Perspective Does AI Reflect? 
 ### Auditing Gendered & Geographical Bias in LLMs vs. Real-World Data
 
 ## 🎯 Project Objective
-The primary objective of this research is to evaluate the reliability and fairness of Large Language Models (LLMs) in providing geographical safety advice. The study seeks to:
+The primary objective of this research is to evaluate the reliability and fairness of Large Language Models (LLMs) in providing geographical safety advice, when different gender is making the question. The study seeks to:
 * **Quantify Gender Bias:** Measure if LLMs alter safety perceptions based on the gendered persona of the user.
 * **Assess Accuracy:** Compare AI safety "intuition" against ground-truth crime statistics and lived human experiences.
 * **Evaluate Semantic Alignment:** Determine if AI-generated descriptions of urban spaces reflect the linguistic nuances of actual residents.
