@@ -1,4 +1,5 @@
-# Case Study: Whose Perspective Does AI Reflect? 
+# Case Study: Gendered Perceptions of Places in LLMs
+# Whose Perspective Does AI Reflect? 
 ### Auditing Gendered & Geographical Bias in LLMs vs. Real-World Data
 
 ## 🎯 Project Objective
