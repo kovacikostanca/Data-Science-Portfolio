@@ -23,6 +23,8 @@ The analysis integrates three high-dimensional data pillars:
 * **Topic Modeling:** Utilized **BERTopic** to extract latent themes such as Safety, Amenities, and Transportation from unstructured text.
 * **Fairness Framework:** Applied **Demographic Parity** and **Equalized Odds** metrics to measure systemic bias across personas.
 
+  **Codes are included, here:** https://drive.google.com/file/d/16iiSC_iAVX1KUeDA_qBjtAuAv77Gx4Vn/view?usp=drive_link
+
 ## 🔍 Analysis
 The analysis focused on the divergence between AI perception and reality:
 * **Similarity Auditing:** Using Sentence Transformers, I calculated the semantic similarity between AI and humans. GPT-5 (0.28) and Claude (0.23) showed weak alignment with actual human descriptions.
