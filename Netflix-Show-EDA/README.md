@@ -8,7 +8,9 @@
 
 A complete end-to-end data analytics project analyzing Netflix's global content catalog to uncover insights about content distribution, trends, and strategic patterns. This project demonstrates professional-level data cleaning, exploratory analysis, and business-focused visual storytelling using Python.
 
-Important Note: Netflix_Content_EDA.ipynd is the **Professional** recreated project, while Netflix_Show_Dataset is the **Basic** first touch.
+
+
+📌 Important Note: Netflix_Content_EDA.ipynd is the **Professional** recreated project, while Netflix_Show_Dataset is the **Basic** first touch.
 
 ---
 
