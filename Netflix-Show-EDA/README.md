@@ -10,7 +10,7 @@ A complete end-to-end data analytics project analyzing Netflix's global content 
 
 
 
-📌 Important Note: Netflix_Content_EDA.ipynd is the **Professional** recreated project, while Netflix_Show_Dataset is the **Basic** first touch.
+📌 Important Note: `Netflix_Content_EDA.ipynd` is the **Professional** recreated project, while `Netflix_Show_Dataset.ipynd` is the **Basic** first touch.
 
 ---
 
