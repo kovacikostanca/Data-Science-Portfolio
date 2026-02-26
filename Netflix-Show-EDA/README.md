@@ -1,138 +1,265 @@
-# Netflix Titles EDA
+<h1 align='center'>Netflix Content Exploratory Data Analysis (EDA)</h1>
 
 <div align="center">
   <img src="https://github.com/kovacikostanca/Data-Science-Portfolio/blob/main/Netflix-Show-EDA/Netflix-EDA.png" alt="Netflix EDA" width="400"/>
 </div>
 
----
+**From Basic Analysis to Professional Data Storytelling**
 
-## Overview
-This project performs **Exploratory Data Analysis (EDA)** on the Netflix Shows Dataset to uncover trends in content by **country, year, genre, and type** (Movies vs TV Shows).  
-
-**Key Highlights:**
-
-- Movies vs TV Shows distribution  
-- Content growth over years and Netflix release year  
-- Top countries producing Netflix content  
-- Genre popularity analysis  
-- Ratings and duration trends  
-- KPI dashboard summarizing the dataset  
+A complete end-to-end data analytics project analyzing Netflix's global content catalog to uncover insights about content distribution, trends, and strategic patterns. This project demonstrates professional-level data cleaning, exploratory analysis, and business-focused visual storytelling using Python.
 
 ---
 
-## Dataset
-- **Source:** [Kaggle – Netflix Shows Dataset](https://www.kaggle.com/datasets/infamouscoder/dataset-netflix-shows)  
-- **Rows:** 8,807 (Movies & TV Shows)  
-- **Columns:** 12  
+# Project Overview
 
-**Sample Columns:**
+Netflix is one of the world’s leading streaming platforms, offering thousands of movies and TV shows globally. Understanding content distribution and trends can help drive strategic decisions such as:
+
+- Content acquisition strategy  
+- Market expansion planning  
+- Audience targeting  
+- Genre investment prioritization  
+
+This project transforms raw Netflix dataset into actionable insights through structured data analysis and professional visualizations.
+
+---
+
+# Project Objectives
+
+The main goals of this project were to:
+
+- Inspect and understand raw dataset structure  
+- Clean and preprocess real-world messy data  
+- Perform exploratory data analysis (EDA)  
+- Identify key content trends and patterns  
+- Create professional visualizations  
+- Build portfolio-ready dashboards  
+- Present insights clearly for technical and non-technical audiences  
+
+---
+
+# Dataset Information
+
+**Dataset:** Netflix Movies and TV Shows Dataset  
+**Source:** Public dataset (Kaggle)
+
+### Dataset Features
 
 | Column | Description |
-|--------|-------------|
-| type | Movie / TV Show |
-| title | Name of the content |
+|------|-------------|
+| show_id | Unique content identifier |
+| type | Movie or TV Show |
+| title | Content title |
+| director | Director name |
+| cast | Actors |
 | country | Country of production |
+| date_added | Date added to Netflix |
 | release_year | Original release year |
-| rating | TV/Film rating |
-| duration | Minutes (movies) / Seasons (TV shows) |
+| rating | Content maturity rating |
+| duration | Length or number of seasons |
 | listed_in | Genre categories |
-| description | Content synopsis |
+| description | Content summary |
 
 ---
 
-## Dataset KPIs
+# Tools and Technologies Used
 
-<div align="center">
-  <img src="images/netflix_kpis.png" alt="Netflix KPIs" width="600"/>
-</div>
+**Programming Language**
+- Python
 
-- **Total Titles:** 8,706  
-- **Movies:** 6,131  
-- **TV Shows:** 2,578  
-- **Countries:** 746  
-- **Unique Genres:** 36  
+**Libraries**
+- Pandas → Data manipulation
+- NumPy → Numerical operations
+- Matplotlib → Visualization
+- Seaborn → Advanced visualization
 
----
-
-## Exploratory Data Analysis
-
-### 1. Movies vs TV Shows
-<div align="center">
-  <img src="images/type_distribution.png" alt="Movies vs TV Shows" width="600"/>
-</div>
-
-- Movies dominate the Netflix catalog (~70%)  
-- TV shows growth is accelerating, especially in **2019–2020**  
+**Environment**
+- Jupyter Notebook
 
 ---
 
-### 2. Content Growth Over Time
+# Project Workflow
 
-**By Original Release Year**
-
-<div align="center">
-  <img src="images/release_year_trends.png" alt="Release Year Trends" width="600"/>
-</div>
-
-**By Netflix Addition Year**
-
-<div align="center">
-  <img src="images/year_added_trends.png" alt="Netflix Release Year Trends" width="600"/>
-</div>
-
-- Sharp increase in content added during **pandemic years**  
+This project follows a professional data analytics pipeline:
 
 ---
 
-### 3. Top Content-Producing Countries
+## 1️⃣ Data Inspection
 
-<div align="center">
-  <img src="images/top_countries.png" alt="Top Countries" width="600"/>
-</div>
+Initial exploration included:
 
-- **United States** and **India** lead content production  
+- Checking dataset shape
+- Reviewing column types
+- Identifying missing values
+- Understanding overall structure
 
----
+Example:
 
-### 4. Genre Analysis
-
-<div align="center">
-  <img src="images/top_genres.png" alt="Top Genres" width="600"/>
-</div>
-
-- Most popular genres: **Dramas, Comedies, Documentaries, Action & Adventure**  
-
----
-
-### 5. Ratings & Durations
-
-**Rating Distribution**
-
-<div align="center">
-  <img src="images/rating_distribution.png" alt="Rating Distribution" width="600"/>
-</div>
-
-**Movie Duration Distribution**
-
-<div align="center">
-  <img src="images/movie_duration.png" alt="Movie Duration Distribution" width="600"/>
-</div>
-
-- Most content is **TV-MA or TV-14**  
-- Movie durations peak around **90–110 minutes**  
+```python
+df.shape
+df.info()
+df.head()
+df.isnull().sum()
+```
 
 ---
 
-## Key Insights
-- Netflix catalog is **movie-heavy**, but TV shows are rapidly increasing  
-- **United States** and **India** dominate production  
-- **Dramas, Comedies, and Documentaries** are the most popular genres  
-- Ratings and durations reflect targeted audience segments  
-- **Pandemic years (2019–2021)** show significant content growth  
+## 2️⃣ Data Cleaning
+
+Cleaning steps included:
+
+- Handling missing values
+- Converting date formats
+- Standardizing columns
+- Removing inconsistencies
+
+Example:
+
+```python
+df['date_added'] = pd.to_datetime(df['date_added'])
+df['year_added'] = df['date_added'].dt.year
+```
 
 ---
 
-## Tech Stack
-- **Python** – data analysis and visualization  
-- **Pandas & NumPy** – data manipulation  
-- **Matplotlib & Seaborn** – visualizations  
+## 3️⃣ Feature Engineering
+
+New features were created to enhance analysis:
+
+Examples:
+
+- year_added
+- content_age
+- duration categories
+- genre grouping
+
+Purpose: Enable deeper insights and trend discovery.
+
+---
+
+## 4️⃣ Exploratory Data Analysis (EDA)
+
+Key business questions explored:
+
+- Movies vs TV Shows distribution
+- Content growth over time
+- Top content producing countries
+- Most common genres
+- Rating distribution
+- Content addition trends
+
+Example visualization:
+
+```python
+sns.countplot(x='type', data=df)
+plt.title("Movies vs TV Shows Distribution")
+```
+
+---
+
+## 5️⃣ Data Visualization & Storytelling
+
+Professional visualizations were created to communicate insights clearly.
+
+Visualizations include:
+
+- Content distribution charts
+- Yearly growth trends
+- Country analysis
+- Genre popularity
+- Rating distribution
+
+---
+
+# Key Insights
+
+Important findings from the analysis:
+
+- Movies dominate Netflix’s catalog
+- Content growth accelerated after 2015
+- Certain countries produce significantly more content
+- Netflix has rapidly expanded its content library
+- Clear trends exist in content type and genre distribution
+
+---
+
+# Business Value
+
+This project demonstrates how data analysis can help streaming platforms:
+
+- Understand content strategy
+- Identify growth opportunities
+- Support investment decisions
+- Improve strategic planning
+
+---
+
+# Skills Demonstrated
+
+- Data Cleaning  
+- Exploratory Data Analysis (EDA)  
+- Data Visualization  
+- Python Programming  
+- Data Storytelling  
+- Feature Engineering  
+- Business Insight Generation  
+
+---
+
+# How to Run This Project
+
+## Step 1: Clone Repository
+
+```bash
+git clone https://github.com/yourusername/netflix-content-eda.git
+```
+
+## Step 2: Install Dependencies
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+## Step 3: Run Notebook
+
+Open the notebook:
+
+```
+netflix_eda.ipynb
+```
+
+---
+
+# Portfolio Purpose
+
+This project was originally created as a basic analysis. It has now been redesigned using professional data analytics standards to demonstrate:
+
+- Professional data analysis workflow  
+- Portfolio-ready presentation  
+- Business-focused insights  
+- Real-world dataset handling  
+
+---
+
+# Future Improvements
+
+Potential enhancements:
+
+- Interactive dashboards (Power BI / Tableau)
+- Predictive analysis
+- Advanced trend analysis
+- Recommendation system exploration
+
+---
+
+# 👤 Author
+
+**Kostanca Kovaci**
+
+Data Analyst | Data Science Enthusiast  
+
+LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/kostanca-kovaci/)  
+GitHub: [DataScience_Portfolio](https://github.com/kovacikostanca) 
+
+---
+
+# ⭐ If you found this project useful, please consider starring the repository!
