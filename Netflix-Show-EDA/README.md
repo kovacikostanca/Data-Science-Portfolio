@@ -40,7 +40,7 @@ The main goals of this project were to:
 # Dataset Information
 
 **Dataset:** Netflix Movies and TV Shows Dataset  
-**Source:** Public dataset (Kaggle)
+**Source:** [Public dataset (Kaggle)](https://www.kaggle.com/datasets/infamouscoder/dataset-netflix-shows)
 
 ### Dataset Features
 
