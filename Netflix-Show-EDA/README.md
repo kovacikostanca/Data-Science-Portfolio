@@ -224,7 +224,7 @@ pip install pandas numpy matplotlib seaborn
 Open the notebook:
 
 ```
-netflix_eda.ipynb
+Netflix_Content_EDA.ipynb
 ```
 
 ---
