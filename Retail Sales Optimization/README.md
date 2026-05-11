@@ -5,5 +5,5 @@ An Interactive Business Intelligence Solution built with Python (dataset creatio
 Focused on executive sales reporting, customer analytics, and product profitability optimization.
 
 <p align="center">
-  <img src="assets/retail_sales_optimization.png" alt="Description" width="800">
+  <img src="assets/retail_sales_optimization.png" alt="Description" width="1000">
 </p>
