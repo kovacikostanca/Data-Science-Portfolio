@@ -6,11 +6,6 @@
 
 An Interactive Business Intelligence Solution built with Python (dataset creation) and Tableau Public. Focused on executive sales reporting, customer analytics, and product profitability optimization. 
 
-# Retail Sales Optimization — Data Analytics Case Study
-
-> Interactive Business Intelligence Solution built with Tableau Public  
-> Focused on executive reporting, customer analytics, and product profitability optimization.
-
 ---
 
 # Project Overview
