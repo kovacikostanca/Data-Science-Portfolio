@@ -6,6 +6,8 @@
 
 An Interactive Business Intelligence Solution built with Python (dataset creation) and Tableau Public. Focused on executive sales reporting, customer analytics, and product profitability optimization. 
 
+[Tableau Visual](https://public.tableau.com/app/profile/kostanca.kovaci/viz/RetailSalesOptimization_17779954668030/Dashboard1-SalesOverview)
+
 ---
 
 # Project Overview
