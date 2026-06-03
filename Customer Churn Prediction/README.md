@@ -9,7 +9,7 @@ A full end-to-end machine learning project that predicts whether a telecom custo
 
 ## Project Objective
 
-Customer churn is one of the most expensive problems in Telecom industry, he rate at which subscribers leave for competitors or cancel services. Because acquiring a new customer costs significantly more than retaining an existing one, telcos rely heavily on data analytics and predictive modeling to identify at-risk users before they leave.
+Customer churn is one of the most expensive problems in Telecom industry, the rate at which subscribers leave for competitors or cancel services. Because acquiring a new customer costs significantly more than retaining an existing one, telcos rely heavily on data analytics and predictive modeling to identify at-risk users before they leave.
 This project builds a production-grade churn prediction system that:
 
 - Identifies high-risk customers before they leave
