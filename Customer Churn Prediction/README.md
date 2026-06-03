@@ -41,7 +41,7 @@ Telco Customer Churn dataset (7,049 customers, 21 features).
 
 ## What the Data Told Us
 
-### 1. The churn rate is 26.5% — a serious problem
+### 1. The churn rate is 26.5% - a serious problem
 More than 1 in 4 customers left the company. That is significantly above the industry average and means the business is losing a large portion of its revenue
 base every year. This also means the dataset is imbalanced, there are far more loyal customers than churners, which we had to handle carefully during modeling.
 
