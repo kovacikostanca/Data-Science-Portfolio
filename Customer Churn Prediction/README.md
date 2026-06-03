@@ -7,7 +7,7 @@
 
 ### Project Objective
 
-Predict customer churn and provide actionable business insights to reduce attrition and increase retention.
+A full end-to-end machine learning project that predicts whether a telecom customer will churn, built with Python and deployed as a live interactive web application.
 
 ---
 
