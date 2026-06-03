@@ -71,6 +71,41 @@ high cost and no commitment is the most dangerous customer profile in the datase
 
 ---
 
+## Model Performance
+
+Three models were trained and compared (Logistic Regression, Random Forest, Gradient Boost), and according to the model evaluation and their total accuracy metrics comparison, the best model was chosen and evaluated again, so we can be sure the results are accurate and not just luck.
+
+| Model | Accuracy | ROC-AUC |
+|---|---|---|
+| Logistic Regression | baseline | baseline |
+| Random Forest | good | good |
+| **Gradient Boosting** | **best** | **0.8824** |
+
+**Gradient Boosting won** because it builds trees sequentially, each one learning from the mistakes of the previous one. It handles the mix of binary, categorical,
+and continuous features in this dataset particularly well.
+
+### Cross-validation confirmed the model is stable
+The model was tested on 5 different data splits, just to be sure that the best model performance is not 'luck', but real performance. All 5 scored between 0.877 and 0.891, a very tight band. This means the model is genuinely learning patterns and not getting lucky on one particular split.
+
+### Threshold tuning recovered 35 extra customers per cycle
+
+By default, models predict churn when probability exceeds 0.50. By lowering the threshold to **0.34** and optimizing for recall:
+
+| | Default (0.50) | Optimized (0.34) |
+|---|---|---|
+| Churners caught | 298 / 374 | 333 / 374 |
+| Recall | 80% | **89%** |
+| Missed churners | 76 | 41 |
+
+**35 additional customers saved per scoring cycle.** At $1,200 average customer lifetime value, that is **~$42,000 in recovered annual revenue** per 1,409
+customers scored, just from changing one threshold number.
+
+The trade-off is 97 more false alarms, loyal customers who get a retention offer they didn't need. A discount coupon costs ~$10. Losing a customer costs $1,200.
+The math strongly favors catching more churners.
+
+---
+
+
 ### 1. Data Understanding
 #### 1.1 Overview
 
