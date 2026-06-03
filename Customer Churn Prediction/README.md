@@ -5,16 +5,69 @@
   <img src="https://github.com/kovacikostanca/Data-Science-Portfolio/blob/main/Customer%20Churn%20Prediction/images/customer_churn.jpg" alt="Description" width="400">
 </p>
 
-### Project Objective
-
 A full end-to-end machine learning project that predicts whether a telecom customer will churn, built with Python and deployed as a live interactive web application.
+
+## Project Objective
+
+Customer churn is one of the most expensive problems in Telecom industry, he rate at which subscribers leave for competitors or cancel services. Because acquiring a new customer costs significantly more than retaining an existing one, telcos rely heavily on data analytics and predictive modeling to identify at-risk users before they leave.
+This project builds a production-grade churn prediction system that:
+
+- Identifies high-risk customers before they leave
+- Explains *why* a customer is at risk
+- Recommends specific retention actions per customer
+- Achieves **89% recall** on churners with an optimized decision threshold
 
 ---
 
-### Dataset
+## The Business Problem
+
+A telecom company loses money every time a customer cancels their subscription. Finding a new customer costs 5–7x more than retaining an existing one.
+
+The goal of this project is to answer one question:
+
+> **"Which customers are about to leave — and what should we do about it?"**
+
+Using historical data on 7,043 customers, I built a model that flags high-risk customers before they churn, explains why they are at risk, and recommends
+specific retention actions for each one.
+
+---
+
+## Dataset
 
 Telco Customer Churn dataset (7,049 customers, 21 features).
 - Link: https://github.com/IBM/telco-customer-churn-on-icp4d/tree/master/data
+
+---
+
+## What the Data Told Us
+
+### 1. The churn rate is 26.5% — a serious problem
+More than 1 in 4 customers left the company. That is significantly above the industry average and means the business is losing a large portion of its revenue
+base every year. This also means the dataset is imbalanced, there are far more loyal customers than churners, which we had to handle carefully during modeling.
+
+### 2. Contract type is the single biggest predictor of churn
+Customers on **month-to-month contracts churn at ~43%** compared to just 11% on one-year and 3% on two-year contracts. Month-to-month customers have no financial
+lock-in, so they can leave any time with no penalty. This is the clearest signal in the entire dataset.
+
+### 3. Fiber optic customers churn more than DSL customers
+Despite fiber optic being the premium product, its customers churn at a higher rate. This suggests a **value-for-money problem**, customers paying more expect
+better service and are more sensitive to any disappointment. Fiber optic also faces more competition from alternative providers, making customers churn between companies fast.
+
+### 4. New customers are the highest risk group
+Customers in their **first 12 months churn at nearly double the rate** of long-tenured customers. The first year is the critical retention window, if a
+customer makes it past 12 months they are significantly more likely to stay long term. This points to an onboarding and early experience problem.
+
+### 5. Electronic check payment signals disengagement
+Customers paying by **electronic check churn at ~45%** compared to ~15–18% for automatic payment methods. Customers on autopay have made a passive commitment
+to stay, because they are not actively thinking about their bill each month. Electronic check customers are re-evaluating the relationship every payment cycle.
+
+### 6. Lack of support services drives churn
+Customers **without tech support or online security churn at roughly twice the rate** of customers who have these services. These add-ons create stickiness, while
+a customer who relies on your security service has a real cost to leaving. Without them, the relationship is purely transactional and easy to walk away from.
+
+### 7. High monthly charges amplify all other risks
+Customers paying **above $70/month** are more price-sensitive and churn at higher rates, especially when combined with month-to-month contracts. The combination of
+high cost and no commitment is the most dangerous customer profile in the dataset.
 
 ---
 
