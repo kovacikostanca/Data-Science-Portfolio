@@ -25,7 +25,7 @@ A telecom company loses money every time a customer cancels their subscription. 
 
 The goal of this project is to answer one question:
 
-> **"Which customers are about to leave — and what should we do about it?"**
+> **"Which customers are about to leave and what should we do about it?"**
 
 Using historical data on 7,043 customers, I built a model that flags high-risk customers before they churn, explains why they are at risk, and recommends
 specific retention actions for each one.
