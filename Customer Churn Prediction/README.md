@@ -2,7 +2,7 @@
 <h3 align="center">Telco BMI Dataset</h3>
 
 <p align="center">
-  <img src="[customer_churn.jpg](https://github.com/kovacikostanca/Data-Science-Portfolio/blob/main/Customer%20Churn%20Prediction/images/customer_churn.jpg)" alt="Description" width="400">
+  <img src="https://github.com/kovacikostanca/Data-Science-Portfolio/blob/main/Customer%20Churn%20Prediction/images/customer_churn.jpg" alt="Description" width="400">
 </p>
 
 ### Project Objective
