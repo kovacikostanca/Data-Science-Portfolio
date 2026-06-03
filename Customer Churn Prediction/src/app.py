@@ -2,6 +2,7 @@ from pathlib import Path
 import json
 
 import joblib
+import os
 import pandas as pd
 import streamlit as st
 
@@ -16,9 +17,10 @@ st.set_page_config(
 
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load('models/churn_model.pkl')
-    scaler = joblib.load('models/scaler.pkl')
-    with open('models/model_metadata.json') as f:
+    base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    model = joblib.load(os.path.join(base, 'models', 'churn_model.pkl'))
+    scaler = joblib.load(os.path.join(base, 'models', 'scaler.pkl'))
+    with open(os.path.join(base, 'models', 'model_metadata.json')) as f:
         metadata = json.load(f)
     return model, scaler, metadata
 
