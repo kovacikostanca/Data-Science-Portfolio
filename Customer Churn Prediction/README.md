@@ -7,6 +7,8 @@
 
 A full end-to-end machine learning project that predicts whether a telecom customer will churn, built with Python and deployed as a live interactive web application.
 
+**Streamlit Deploy:** https://datascienceportfolio-customer-churn-prediction.streamlit.app/
+
 ## Project Objective
 
 Customer churn is one of the most expensive problems in Telecom industry, the rate at which subscribers leave for competitors or cancel services. Because acquiring a new customer costs significantly more than retaining an existing one, telcos rely heavily on data analytics and predictive modeling to identify at-risk users before they leave.
