@@ -157,9 +157,9 @@ score, understand why, and know exactly what to offer them. That is the full jou
 
 ## Project Structure
 
+`
 customer-churn-prediction/
 ├── data/                           # Dataset and saved charts
-
 ├── models/                         # Trained model, scaler, metadata
 │   ├── churn_model.pkl
 │   ├── scaler.pkl
@@ -170,7 +170,7 @@ customer-churn-prediction/
 │   └── app.py                      # Streamlit web application
 ├── requirements.txt
 └── README.md
-
+`
 ---
 
 ## Machine Learning Pipeline
