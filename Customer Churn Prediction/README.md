@@ -159,6 +159,7 @@ score, understand why, and know exactly what to offer them. That is the full jou
 
 customer-churn-prediction/
 ├── data/                           # Dataset and saved charts
+
 ├── models/                         # Trained model, scaler, metadata
 │   ├── churn_model.pkl
 │   ├── scaler.pkl
